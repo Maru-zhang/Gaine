@@ -1,28 +1,24 @@
 import XCTest
 import Gaine
+import UIKit
+
+struct MyType {
+    var foo: String?
+}
 
 class Tests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+
+    let foo = Gaine(UILabel()) {
+        $0.text = "demo"
+        $0.textAlignment = .center
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+
+    let bar = Gaine(MyType()) {
+        $0.foo = "foo"
     }
-    
+
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        XCTAssert(foo.text == "demo", "Pass")
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }
