@@ -113,7 +113,7 @@ pod 'Gaine'
 
 ## Author
 
-Maru-zhang, zhangbinhui@souche.com
+Maru-zhang, maru-zhang@foxmail.com
 
 ## License
 
