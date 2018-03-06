@@ -1,0 +1,16 @@
+PODS:
+  - Gaine (0.1.0)
+
+DEPENDENCIES:
+  - Gaine (from `../`)
+
+EXTERNAL SOURCES:
+  Gaine:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Gaine: 935b26810c8e1b514ddd289b1853fc372e168a4f
+
+PODFILE CHECKSUM: c51b41db3dc9e945082b3c5e19ae9e4ac68ce8ad
+
+COCOAPODS: 1.4.0
