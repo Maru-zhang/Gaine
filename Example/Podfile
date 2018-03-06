@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Gaine_Example' do
+  pod 'Gaine', :path => '../'
+
+  target 'Gaine_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
