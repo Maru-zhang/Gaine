@@ -87,11 +87,15 @@ class Demo {
 #### Gaine way
 
 ```
-/// the way to initialize is same
-lazy var foo = Gaine(CGSize()) {
-   $0.width = 100
-   $0.height = 200
+class Demo {
+
+    /// the way to initialize is same
+    lazy var foo = Gaine(CGSize()) {
+       $0.width = 100
+       $0.height = 200
+    }
 }
+
 ```
 
 ### **4. Less Code**
